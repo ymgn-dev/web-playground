@@ -7,6 +7,6 @@ export default {
   dbCredentials: {
     connectionString: `${env.POSTGRES_URL}?ssl=true`,
   },
-  tablesFilter: ["web-playground_*"],
+  tablesFilter: ["web_playground_*"],
 } satisfies Config;
 
